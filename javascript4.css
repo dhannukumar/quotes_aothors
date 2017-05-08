@@ -1,0 +1,36 @@
+body{
+    align-items: center;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+.flex-container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    font-family: "ubuntu";
+    height: 400px;
+    justify-content: center;
+    width: 600px;
+    
+}
+#item1{
+    font-size: 35px;
+    margin-left: 15px;
+}
+#item2{
+    align-self: flex-end;
+    margin-right: 10px;
+}
+.item3{
+    align-self: center;
+    cursor: pointer;
+    font-family: "ubuntu";
+    line-height: 35px;
+    margin: 30px;
+    outline: inherit;
+    width: 100px;
+    
+}
